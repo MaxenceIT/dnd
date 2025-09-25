@@ -3,9 +3,9 @@ spring:
     name: dnd
 
   datasource:
-    url: jdbc:postgresql://192.168.13.13:5432/dnd
-    username: dnd_user
-    password: "*ccpml183*"
+    url: jdbc:postgresql://192.168.0.10:5432/bdd
+    username: bdd_user
+    password: secret
   jpa:
     hibernate:
       ddl-auto: update
