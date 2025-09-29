@@ -34,3 +34,8 @@ build/
 
 # Configuration locale avec secrets
 /src/main/resources/application.yml
+
+# Configuration infra
+/infra/.env
+/infra/dev/pg_data/
+/infra/dev/pgadmin_data/
